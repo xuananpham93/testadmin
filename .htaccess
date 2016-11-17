@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
-   RewriteEngine on
-   RewriteBase /
-   RewriteRule    ^$ cakeapp/    [L]
-   RewriteRule    (.*) cakeapp/$1 [L]
+    RewriteEngine on
+    RewriteRule    ^$    cakeapp/    [L]
+    RewriteRule    (.*) cakeapp/$1    [L]
 </IfModule>
